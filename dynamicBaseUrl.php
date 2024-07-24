@@ -15,10 +15,10 @@ $current_host = $_SERVER['HTTP_HOST'];
 // Check if the host name contains 'staging' to determine if it's a staging environment
 if (strpos($current_host, 'staging') !== false) {
     // It's a staging environment
-    $base_url = 'https://stagingapp5002.cloudwayssites.com'; // Base URL for staging environment
+    $base_url = 'https://stagingyoursite.com'; // Base URL for staging environment
 } else {
     // It's a production environment
-    $base_url = 'https://app4974.cloudwayssites.com'; // Base URL for production environment
+    $base_url = 'https://yourprodsite.com'; // Base URL for production environment
 }
 
 // Function to get the dynamic base URL
